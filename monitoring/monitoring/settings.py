@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'measurements',
+    'measurementsNOSQL',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +125,5 @@ STATIC_URL = '/static/'
 MONGO_DB = os.environ['MONGO_DB']
 MLAB_PASSWORD = os.environ['MLAB_PASSWORD']
 MLAB_USER = os.environ['MLAB_USER']
+DB_HOST = os.environ['DB_HOST']
+DB_PORT = os.environ['DB_PORT']
